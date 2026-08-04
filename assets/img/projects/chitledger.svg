@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f3f"/>
+      <stop offset="1" stop-color="#5b3fb8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <circle cx="500" cy="60" r="140" fill="white" opacity="0.04"/>
+  <circle cx="60" cy="360" r="110" fill="white" opacity="0.05"/>
+  <g transform="translate(268,120) scale(1.6)" opacity="0.9">
+    <rect x="14" y="8" width="36" height="48" rx="3" fill="none" stroke="white" stroke-width="2.2"/><line x1="21" y1="20" x2="43" y2="20" stroke="white" stroke-width="2.2" stroke-linecap="round"/><line x1="21" y1="29" x2="43" y2="29" stroke="white" stroke-width="2.2" stroke-linecap="round"/><line x1="21" y1="38" x2="35" y2="38" stroke="white" stroke-width="2.2" stroke-linecap="round"/><circle cx="40" cy="44" r="7" fill="none" stroke="white" stroke-width="2"/><path d="M40 41v3l2 2" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="270" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="600" fill="white" text-anchor="middle">ChitLedger</text>
+  <text x="300" y="300" font-family="Raleway, Arial, sans-serif" font-size="15" fill="white" fill-opacity="0.75" text-anchor="middle">Next.js · Postgres · Redis</text>
+</svg>
